@@ -24,9 +24,11 @@
 	<h1>Pi Mu Epsilon</h1>
 	</header>
 	
-	<nav class="navbar" role="navigation">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+			<a role="presentation"  href="index.php" class="navbar-brand home<?php if($section=="about"){echo " on active";}?>">Home</a>
+		</div>
 		<ul class="nav nav-tabs">
-			<li role="presentation" class="home<?php if($section=="about"){echo " on active";}?>"><a href="index.php">Home</a></li>
 			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
 			<li role="presentation" class="contact<?php if($section=="contact"){echo " on active";}?>"><a href="contact.php">Contact us</a></li>
 		</ul>
