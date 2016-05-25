@@ -26,7 +26,8 @@
 	
 	<nav class="navbar" role="navigation">
 		<ul class="nav nav-tabs">
-			<li role="presentation" class="home"<?php if($section=="about"){echo " on";}?>><a href="index.php">Home</a></li>
-			<li role="presentation" class="calendar"<?php if(section=="calendar"){echo " on";}?>><a href="calendar.php">Calendar</a></li>
+			<li role="presentation" class="home<?php if($section=="about"){echo " on active";}?>"><a href="index.php">Home</a></li>
+			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
+			<li role="presentation" class="contact<?php if($section=="contact"){echo " on active";}?>"><a href="contact.php">Contact us</a></li>
 		</ul>
 	</nav>
