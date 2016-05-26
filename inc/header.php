@@ -1,7 +1,7 @@
 <!Doctype html>
 <html lang="en">
 <head>
-	<title>Tamu Pi Mu Epsilon</title>
+	<title>Tamu Math Club</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
 	
@@ -21,7 +21,7 @@
 
 <body>
 	<header>
-	<h1>Pi Mu Epsilon</h1>
+	<h1>Math Club</h1>
 	</header>
 	
 	<nav class="navbar navbar-default" role="navigation">
@@ -31,5 +31,6 @@
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
 			<li role="presentation" class="contact<?php if($section=="contact"){echo " on active";}?>"><a href="contact.php">Contact us</a></li>
+			<li role="presentation" class="organizations<?php if($section=="organizations"){echo " on active";}?>"><a href="organizations.php">Organizations</a></li>
 		</ul>
 	</nav>
