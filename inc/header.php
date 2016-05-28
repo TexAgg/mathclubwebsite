@@ -30,7 +30,7 @@
 		</div>
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
-			<li role="presentation" class="contact<?php if($section=="contact"){echo " on active";}?>"><a href="contact.php">Contact us</a></li>
+			<li role="presentation" class="contact<?php if($section=="officers"){echo " on active";}?>"><a href="officers.php">Officers</a></li>
 			<li role="presentation" class="organizations<?php if($section=="organizations"){echo " on active";}?>"><a href="organizations.php">Organizations</a></li>
 		</ul>
 	</nav>

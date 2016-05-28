@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Contact us";
-	$section = "contact";
+	$pageTitle = "Officers";
+	$section = "officers";
 	include("inc/header.php");
 ?>
 

@@ -1,5 +1,5 @@
-# TAMU Pi Mu Epsilon
-This is the repository for Texas A&M's Pi Mu Epsilon.
+# Math Club
+This is the repository for Texas A&M's Math Club.
 
 ---
 

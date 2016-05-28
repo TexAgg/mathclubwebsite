@@ -8,6 +8,5 @@
         }
     ],
     "require": {
-        "symfony/filesystem": "^3.0"
     }
 }
