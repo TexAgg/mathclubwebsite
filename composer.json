@@ -1,0 +1,13 @@
+{
+    "name": "mgaik/math_club_website",
+    "description": "The website for the TAMU Math Club",
+    "authors": [
+        {
+            "name": "Matt G",
+            "email": "matt.gaikema@tamu.edu"
+        }
+    ],
+    "require": {
+        "symfony/filesystem": "^3.0"
+    }
+}
