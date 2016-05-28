@@ -1,5 +1,6 @@
 # Math Club
 This is the repository for Texas A&M's Math Club.
+At the moment the site is hosted [here](https://peaceful-atoll-84937.herokuapp.com/) but it will be moved in the future.
 
 ---
 
