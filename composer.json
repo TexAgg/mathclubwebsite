@@ -7,6 +7,8 @@
             "email": "matt.gaikema@tamu.edu"
         }
     ],
+    "require": {
+    },
     "require-dev": {
         "heroku/heroku-buildpack-php": "^105.0"
     }
