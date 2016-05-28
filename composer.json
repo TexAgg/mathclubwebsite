@@ -8,5 +8,6 @@
         }
     ],
     "require": {
+        "heroku/heroku-buildpack-php": "^105.0"
     }
 }
