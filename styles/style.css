@@ -1,6 +1,12 @@
 /* Matt Gaikema */
 /* 5/25/16 */
 
+#site-header
+{
+	background-color: #500000;
+	color: white; 
+}
+
 body
 {
 	padding-left: 15px;
@@ -9,4 +15,9 @@ body
 #homer
 {
 	width: 25%;
+}
+
+.officer-pic
+{
+	width: 128px;
 }

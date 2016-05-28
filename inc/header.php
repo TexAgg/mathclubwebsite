@@ -20,9 +20,11 @@
 </head>
 
 <body>
+	<div id="site-header" class="jumbotron">
 	<header>
 	<h1>Math Club</h1>
 	</header>
+	</div>
 	
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
