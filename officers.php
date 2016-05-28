@@ -17,6 +17,17 @@
 	// delete it.
 	array_shift($officers);
 	
+	/**
+		Each element in officers has the following format:
+		
+		$officers[n][0]: The position.
+		$officers[n][1]: The name of the officer.
+		$officers[n][2]: The email of the officer.
+		$officers[n][3]: The url of a picture of the officer.
+		
+		for n in count($officers).
+	*/
+	
 	include("inc/header.php");
 ?>
 

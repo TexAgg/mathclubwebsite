@@ -21,9 +21,9 @@
 	/**
 		Each value in $organizations_data has the following format:
 		
-			$organizations_data[n][0]: The title of the organization.
-			$organizations_data[n][1]: The website.
-			$organizations_data[n][2]: A description of the website.
+		$organizations_data[n][0]: The title of the organization.
+		$organizations_data[n][1]: The website.
+		$organizations_data[n][2]: A description of the website.
 			
 		for n in count($organizations_data).
 	*/
