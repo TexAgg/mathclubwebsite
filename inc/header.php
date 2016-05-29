@@ -31,8 +31,15 @@
 			<a role="presentation"  href="index.php" class="navbar-brand home<?php if($section=="about"){echo " on active";}?>">Home</a>
 		</div>
 		<ul class="nav nav-tabs">
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+					About <span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li class="officers<?php if($section=="officers"){echo " on";}?>"><a href="officers.php">Officers</a></li>
+				</ul>
+			</li><!--Dropdown menu-->
 			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
-			<li role="presentation" class="contact<?php if($section=="officers"){echo " on active";}?>"><a href="officers.php">Officers</a></li>
 			<li role="presentation" class="organizations<?php if($section=="organizations"){echo " on active";}?>"><a href="organizations.php">Organizations</a></li>
 		</ul>
 	</nav>
