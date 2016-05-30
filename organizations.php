@@ -52,7 +52,7 @@
 				echo "</a></h4></div>";
 				
 				// Body.
-				echo "<div id=\"org".$i."\" class=\"panel-body collapse\">";
+				echo "<div id=\"org".$i."\" class=\"panel-body\">";
 				echo "<p>";
 				echo $organizations_data[$i][2];
 				echo "</p>";
