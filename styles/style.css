@@ -17,6 +17,14 @@ body
 	width: 25%;
 }
 
+.carouselImg
+{
+	width: auto;
+	height: 512px;
+	max-height: 512px;
+	margin: 0 auto;
+}
+
 .officer-pic
 {
 	width: 128px;
