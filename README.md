@@ -19,6 +19,7 @@ or any organizations by editing either
 
 ## Resources
 These are various resources I found useful while developing the website.
+
 * https://developers.google.com/speed/libraries/#top_of_page
 * http://brandguide.tamu.edu/colors.html
 
