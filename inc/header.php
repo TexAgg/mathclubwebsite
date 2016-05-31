@@ -17,6 +17,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
 	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
+	<!-- MathJax for math rendering: https://www.mathjax.org/#docs -->
+	<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 	
 </head>
 
@@ -35,10 +37,12 @@
 					About <span class="caret"></span>
 				</a>
 				<ul class="dropdown-menu">
+					<li class="about<?php if($section=="about"){echo " on";}?>"><a href="about.php">About</a></li>
 					<li class="officers<?php if($section=="officers"){echo " on";}?>"><a href="officers.php">Officers</a></li>
 				</ul>
 			</li><!--Dropdown menu-->
 			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
+			<li role="presentation" class="organizations<?php if($section=="contest"){echo " on active";}?>"><a href="contest.php">Bi-weekly Math Contest</a></li>
 			<li role="presentation" class="organizations<?php if($section=="organizations"){echo " on active";}?>"><a href="organizations.php">Organizations</a></li>
 		</ul>
 	</nav>

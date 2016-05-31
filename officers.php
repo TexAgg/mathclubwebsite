@@ -54,6 +54,8 @@
 				echo $officers[$i][1];
 				echo "<br><a href=\"mailto:".$officers[$i][2]."\">".$officers[$i][2]."</a>";
 				echo  "</div>";
+				
+				echo "</li>";
 			}
 			
 		?>
