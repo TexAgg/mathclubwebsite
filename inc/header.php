@@ -3,7 +3,6 @@
 <head>
 	<title>Tamu Math Club</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
 	
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
@@ -17,14 +16,14 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
+	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
+	
 </head>
 
 <body>
-	<div id="site-header" class="jumbotron">
-		<header class="page-header">
+	<div id="site-header" class="jumbotron page-header">
 		<h1>Math Club</h1>
-		</header>
-	</div>
+	</div><!--site-header-->
 	
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
