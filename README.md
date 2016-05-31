@@ -4,6 +4,19 @@ At the moment the site is hosted [here](https://peaceful-atoll-84937.herokuapp.c
 
 ---
 
+## Instructions
+If you are a future webmaster, and don't know any PHP or HTML, fear not.
+I have tried to make the website fairly easy to update.
+All information that is likely to change is stored 
+in one of the CSV (Comma-Seperated Values) files
+in the `resources` folder.
+There, you can update the current officers, 
+the images on the homepage of the website,
+or any organizations by editing either
+`officers.csv`, `homeImages.csv`, or `organizations.csv`, respectively.
+
+---
+
 ## Resources
 * https://developers.google.com/speed/libraries/#top_of_page
 * http://brandguide.tamu.edu/colors.html
