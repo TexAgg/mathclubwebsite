@@ -26,7 +26,7 @@
 	<div id="contest-problem" class="well">
 		<h3>Current Problem</h3>
 		Let \(\zeta(n)\) be defined by $$\zeta(n):=\sum_{s=1}^{\infty}\frac{1}{n^s}.$$
-		Show that all the zeros of $\zeta$ have a real part of \(-\frac{1}{2}\).
+		Show that all the zeros of \(\zeta\) have a real part of \(-\frac{1}{2}\).
 	</div>
 	
 </div><!--Section-->
