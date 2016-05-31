@@ -8,6 +8,11 @@
 	/*background-image: url("https://dl.dropboxusercontent.com/s/d9rof885miw994y/homer.jpg?dl=0");*/
 }
 
+#site-subheader
+{
+	color: #a1a1a1;
+}
+
 body
 {
 	padding-left: 15px;
