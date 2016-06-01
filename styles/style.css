@@ -5,7 +5,15 @@
 {
 	background-color: #500000;
 	color: white; 
-	/*background-image: url("https://dl.dropboxusercontent.com/s/d9rof885miw994y/homer.jpg?dl=0");*/
+	/*background-image: url("https://eli.tamu.edu/wp-content/uploads/2014/06/12thman.png");*/
+	/*http://codepen.io/renatocarvalho/pen/LEZMyP*/
+	/*
+	background: linear-gradient(
+		rgba(80,0,0,0.85),
+		rgba(80,0,0,0.85)
+	),
+	url("https://eli.tamu.edu/wp-content/uploads/2014/06/12thman.png");
+	*/	
 }
 
 #site-subheader

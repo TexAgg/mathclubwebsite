@@ -25,17 +25,27 @@
 
 <body>
 	<div id="site-header" class="jumbotron page-header">
+		<!--<img src="img/Logo.svg" width="140" class="pull-left"></img>-->
 		<h1>Math Club</h1>
 		 <p id="site-subheader">
 			 Texas A&M University
 		</p>
 	</div><!--site-header-->
 	
+	<!-- Add class "navbar-fixed-top" to fix the navbar to the top. -->
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
-			<a role="presentation"  href="index.php" class="navbar-brand home<?php if($section=="about"){echo " on active";}?>">Home</a>
+			<a role="presentation"  href="index.php" class="navbar-brand home<?php if($section=="about"){echo " on";}?>">Home</a>
 		</div>
-		<ul class="nav nav-tabs">
+		<!--
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		-->
+		<ul id="site-nav" class="nav nav-tabs">
 			<li role="presentation" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 					About <span class="caret"></span>
