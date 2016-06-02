@@ -62,11 +62,10 @@
 	</div><!--Carousel-->
 	
 	<h2>Welcome to Math Club</h2>
-	
-	<p>
+	<!--<p>
 		Math Club is an umbrella organization for all undergraduate organizations in the Math Departament
 		at Texas A&M. 
-	</p>
+	</p>-->
 	
 </div><!--Section-->
 
