@@ -24,12 +24,14 @@
 </head>
 
 <body>
-	<div id="site-header" class="jumbotron page-header">
-		<!--<img src="img/Logo.svg" width="140" class="pull-left"></img>-->
-		<h1>Math Club</h1>
-		 <p id="site-subheader">
-			 Texas A&M University
-		</p>
+	<div id="site-header" class="jumbotron">
+		<img src="img/Logo.svg" width="140" class="pull-right"></img>
+		<div id="header-words">
+			<h1>Math Club</h1>
+			<p id="site-subheader">
+				Texas A&M University
+			</p>
+		</div><!--header-words-->
 	</div><!--site-header-->
 	
 	<!-- Add class "navbar-fixed-top" to fix the navbar to the top. -->

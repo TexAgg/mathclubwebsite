@@ -24,12 +24,29 @@
 	</div>
 	
 	<div id="contest-problem" class="well">
-		<h3>Current Problem</h3>
-		<!-- This is just a placeholder for now.
-		TODO: Have this section dynamically update itself. -->
-		Let \(\zeta(n)\) be defined by $$\zeta(n):=\sum_{s=1}^{\infty}\frac{1}{n^s}.$$
-		Show that all the zeros of \(\zeta\) have a real part of \(-\frac{1}{2}\).
-	</div>
+		<!--<h3>Current Problem</h3>-->
+		<!-- This is just a placeholder for now. -->
+		<!--Let \(\zeta(n)\) be defined by $$\zeta(n):=\sum_{s=1}^{\infty}\frac{1}{n^s}.$$
+		Show that all the zeros of \(\zeta\) have a real part of \(-\frac{1}{2}\).-->
+		
+		<?php
+			/* 
+				Read xml at http://mathclubtamu.blogspot.com/feeds/posts/default
+				and parse it.
+			*/
+			
+			$xml = simplexml_load_file("http://mathclubtamu.blogspot.com/feeds/posts/default");
+			//var_dump($xml);
+			$current = $xml->entry[0];
+			
+			echo "<h3>".$current->title."</h3>";
+			echo "<p>".$current->content."</p>";
+			
+			//echo "<br></br>";
+			echo "<p><small>Published ".$current->published.".</small></p>";
+		?>	
+		
+	</div><!-- contest-problem-->
 	
 </div><!--Section-->
 

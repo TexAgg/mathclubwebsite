@@ -16,6 +16,22 @@
 	*/	
 }
 
+/*http://stackoverflow.com/questions/18410742/remove-space-between-navbar-and-jumbotron-in-bootstrap-3*/
+.navbar
+{
+	margin-bottom: 0;
+}
+
+.jumbotron
+{
+	margin-bottom: 0;
+}
+
+#header-words
+{
+	padding-left: 15px;
+}
+
 #site-subheader
 {
 	color: #a1a1a1;
@@ -23,7 +39,7 @@
 
 body
 {
-	padding-left: 15px;
+	/*padding-left: 15px;*/
 }
 
 #homer

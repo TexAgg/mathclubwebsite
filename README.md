@@ -15,6 +15,11 @@ the images on the homepage of the website,
 or any organizations by editing either
 `officers.csv`, `homeImages.csv`, or `organizations.csv`, respectively.
 
+For the Bi-weekly Math Contest, I plan on posting the problems [here](http://mathclubtamu.blogspot.com/),
+and the website will update itself automatically whenever a new post is made.
+
+If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.edu](mailto:matt.gaikema@tamu.edu).
+
 ---
 
 ## Resources
