@@ -40,6 +40,9 @@
 body
 {
 	/*padding-left: 15px;*/
+	/* Slightly darker background:
+	http://www.w3schools.com/colors/colors_picker.asp */
+	background-color: #f2f2f2; 
 }
 
 #homer

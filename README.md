@@ -33,6 +33,7 @@ These are various resources I found useful while developing the website.
 ### PHP
 * [Symphony docs](https://symfony.com/pdf/Symfony_components_3.0.pdf?v=4)
 * [newline](http://stackoverflow.com/a/20749472/5415895)
+* [routing](https://github.com/klein/klein.php)
 
 ### Bootstrap
 * [CSS](http://getbootstrap.com/css/)
