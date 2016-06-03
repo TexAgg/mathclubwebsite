@@ -3,6 +3,8 @@
 <head>
 	<title>Tamu Math Club</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- This is optional. -->
+	<link rel="icon" href="img/favicon.ico"></link>
 	
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
