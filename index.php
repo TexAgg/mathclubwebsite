@@ -41,12 +41,14 @@
 						echo "<div class=\"item active\">";
 					else
 						echo "<div class=\"item\">";
+					echo "<a href=\"".$images[$i][3]."\">";
 					echo "<img class=\"carouselImg\" src=\"".$images[$i][2]."\"></img>";
 					// Caption
 					echo "<div class=\"carousel-caption\">";
 					echo "<h3>".$images[$i][0]."</h3>";// Header
 					echo "<p>".$images[$i][1]."</p>";// Body
 					echo "</div>";//carousel-caption
+					echo "</a>";
 					echo "</div>"; //item
 				}
 			?>

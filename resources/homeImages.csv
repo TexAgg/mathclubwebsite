@@ -1,3 +1,4 @@
-Header,Description,Image
-header,Some text.,img/home/homer.jpg
-header,Some text.,img/home/temp-math.jpg
+Header,Description,Image,Link
+header,Some text.,img/home/homer.jpg,#
+header,Some text.,img/home/temp-math.jpg,#
+Bi-weekly math contest,1+2=3,img/home/contest.svg,contest.php
