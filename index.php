@@ -34,6 +34,7 @@
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<?php
+				// Display all of the images from the CSV.
 				for ($i = 0; $i < count($images); $i++) 
 				{
 					if($i==0)
