@@ -1,4 +1,5 @@
 @echo off
-%SystemRoot%\explorer.exe "C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website"
+SET filepath="C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website"
+%SystemRoot%\explorer.exe %filepath%
 start C:\MAMP\MAMP.exe
-code "C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website"
+code %filepath%
