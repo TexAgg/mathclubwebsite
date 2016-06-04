@@ -48,3 +48,7 @@ These are various resources I found useful while developing the website.
 
 ### Bootstrap
 * [CSS](http://getbootstrap.com/css/)
+
+### Compression
+* http://php.net/manual/en/function.ob-gzhandler.php
+* https://varvy.com/pagespeed/enable-compression.html
