@@ -1,4 +1,12 @@
 <?php
+/*
+	officers.php
+	Information about the current officers.
+	
+	Author: Matt Gaikema
+	Date Created: 5/25/16
+*/
+	
 	$pageTitle = "Officers";
 	$section = "officers";
 	

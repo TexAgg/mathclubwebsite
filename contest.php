@@ -1,4 +1,13 @@
 <?php
+/*
+	contest.php
+	Information about the Bi-weekly math contest,
+	including the current problem.
+	
+	Author: Matt Gaikema
+	Date Created: 5/31/16
+*/	
+
 	$pageTitle = "Bi-Weekly Math Contest";
 	$section = "contest";
 	

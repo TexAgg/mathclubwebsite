@@ -1,4 +1,12 @@
 <?php
+/*
+	organizations.php
+	Information about the different undergraduate math organizations.
+	
+	Author: Matt Gaikema
+	Date Created: 5/30/16
+*/
+	
 	$pageTitle = "Organizations";
 	$section = "organizations";
 	

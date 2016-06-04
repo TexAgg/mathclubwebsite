@@ -1,4 +1,12 @@
 <?php
+/*
+	about.php
+	Display informayion about Math Club: what is math club?
+	
+	Author: Matt Gaikema
+	Date Created: 5/31/16
+*/
+
 	$pageTitle = "About";
 	$section = "about";
 	

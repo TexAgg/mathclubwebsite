@@ -1,6 +1,15 @@
 <?php
+/*
+	calendar.php
+	Displays the google calendar for upcoming events.
+	
+	Author: Matt Gaikema
+	Date Created: 5/25/16
+*/
+	
 	$pageTitle = "Calendar";
 	$section = "calendar";
+	
 	include("inc/header.php");
 ?>
 

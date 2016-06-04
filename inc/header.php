@@ -1,7 +1,14 @@
+<!--
+	header.php
+	This is the standard header that apears in each webpage.
+	
+	Author: Matt Gaikema
+	Date Created: 5/21/16
+-->
 <!Doctype html>
 <html lang="en">
 <head>
-	<title>Tamu Math Club</title>
+	<title><?php echo $pageTitle;?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- This is optional. -->
 	<!--<link rel="icon" href="img/favicon.ico"></link>-->
