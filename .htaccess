@@ -14,6 +14,8 @@ ExpiresDefault "access 2 days"
 
 ## EXPIRES CACHING ##
 
+# Enable gzip.
+## https://varvy.com/pagespeed/enable-compression.html
 <ifModule mod_gzip.c>
 mod_gzip_on Yes
 mod_gzip_dechunk Yes

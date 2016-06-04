@@ -7,6 +7,8 @@
 	Date Created: 5/21/16
 */	
 
+	// Compress output.
+	// http://php.net/manual/en/function.ob-gzhandler.php
 	if(!ob_start("ob_gzhandler")) ob_start();
 ?>
 <!Doctype html>
