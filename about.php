@@ -12,6 +12,12 @@
 		at Texas A&M. 
 	</p>
 	
+	<h3 id="about-membership">Membership</h3>
+	<p>
+		Anyone can join Math Club just by attending the meetings,
+		the dates of which can be found <a href="calendar.php">here</a>.
+	</p>
+	
 </div><!--Section-->
 
 <?php
