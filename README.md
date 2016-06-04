@@ -17,14 +17,25 @@ or any organizations by editing either
 Various resources are saved in [this](https://drive.google.com/folderview?id=0BwjQwHPO5djrc1pvVFlxOUR4V3M&usp=sharing)
 Google folder.
 
+### Calendar
+The calendar is found [here](https://calendar.google.com/calendar/embed?src=4kl90qkd5vdkrr2pm2f0np8tk0%40group.calendar.google.com&ctz=America/Chicago).
+It should be shared, along with the [math contest blog](http://mathclubtamu.blogspot.com/), with the other officers.
+However, since your title is also Communications Officer, you are responsible for updating events and informing others.
+
+### Bi-Weekly Math Contest
 For the Bi-weekly Math Contest, I plan on posting the problems [here](http://mathclubtamu.blogspot.com/),
 and the website will update itself automatically whenever a new post is made.
 
+### Version Control
+If you aren't familiar with [git](https://git-scm.com/), skip this.
+The git repository for this website is [here](https://bitbucket.org/tamumathclub/website/overview).
+
+### Further Questions
 If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.edu](mailto:matt.gaikema@tamu.edu).
 
 ---
 
-## Resources
+## Development Resources
 These are various resources I found useful while developing the website.
 
 * https://developers.google.com/speed/libraries/#top_of_page
