@@ -1,10 +1,14 @@
-<!--
+<?php
+/*
 	header.php
 	This is the standard header that apears in each webpage.
 	
 	Author: Matt Gaikema
 	Date Created: 5/21/16
--->
+*/	
+
+	if(!ob_start("ob_gzhandler")) ob_start();
+?>
 <!Doctype html>
 <html lang="en">
 <head>
