@@ -1,4 +1,5 @@
 Header,Description,Image,Link
-header,Some text.,img/home/homer.jpg,#
+AMUSe,Where mathematics meets application.,img/home/homer.jpg,organizations.php#org1
 header,Some text.,img/home/temp-math.jpg,#
-Bi-weekly math contest,1+2=3,img/home/contest.svg,contest.php
+Bi-Weekly Math Contest,Be the first to solve it for a prize!,img/home/contest.svg,contest.php
+Aggie Actuaries,,img/home/aggie-actuaries.png,organizations.php#org2

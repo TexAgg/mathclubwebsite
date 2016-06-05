@@ -34,6 +34,7 @@
 		$organizations_data[n][2]: A description of the website.
 			
 		for n in count($organizations_data).
+		0 is AWM, 1 is AMUSe, 2 is Aggie Actuaries.
 	*/
 	
 	include("inc/header.php");
