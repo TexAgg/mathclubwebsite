@@ -58,6 +58,11 @@ body
 	margin: 0 auto;
 }
 
+.carousel-caption
+{
+	background-color: rgba(204, 204, 204, 0.5);
+}
+
 .officer-pic
 {
 	width: 128px;

@@ -6,7 +6,7 @@
 	Author: Matt Gaikema
 	Date Created: 5/21/16
 */
-
+	
 	$pageTitle = "Tamu Math Club";
 	$section = "home";
 	$organization = "Math Club";
