@@ -53,7 +53,7 @@
 	<!-- Add class "navbar-fixed-top" to fix the navbar to the top. -->
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -61,7 +61,7 @@
 			</button>
 			<a role="presentation"  href="index.php" class="navbar-brand home<?php if($section=="about"){echo " on";}?>">Home</a>
 		</div><!--navbar-header-->
-		<div class="navbar-collapse collapse">
+		<div id="navbar" class="navbar-collapse collapse">
 			<ul id="site-nav" class="nav nav-tabs">
 				<li role="presentation" class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
