@@ -26,7 +26,7 @@
 	// delete it.
 	array_shift($organizations_data);
 	
-	/**
+	/*
 		Each value in $organizations_data has the following format:
 		
 		$organizations_data[n][0]: The title of the organization.

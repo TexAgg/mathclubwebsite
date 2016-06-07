@@ -25,7 +25,7 @@
 	// delete it.
 	array_shift($officers);
 	
-	/**
+	/*
 		Each element in officers has the following format:
 		
 		$officers[n][0]: The position.
