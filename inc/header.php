@@ -53,28 +53,28 @@
 	<!-- Add class "navbar-fixed-top" to fix the navbar to the top. -->
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 			<a role="presentation"  href="index.php" class="navbar-brand home<?php if($section=="about"){echo " on";}?>">Home</a>
-		</div>
-		<!--
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-		-->
-		<ul id="site-nav" class="nav nav-tabs">
-			<li role="presentation" class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-					About <span class="caret"></span>
-				</a>
-				<ul class="dropdown-menu">
-					<li class="about<?php if($section=="about"){echo " on";}?>"><a href="about.php">About</a></li>
-					<li class="officers<?php if($section=="officers"){echo " on";}?>"><a href="officers.php">Officers</a></li>
-				</ul>
-			</li><!--Dropdown menu-->
-			<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
-			<li role="presentation" class="organizations<?php if($section=="contest"){echo " on active";}?>"><a href="contest.php">Bi-weekly Math Contest</a></li>
-			<li role="presentation" class="organizations<?php if($section=="organizations"){echo " on active";}?>"><a href="organizations.php">Organizations</a></li>
-		</ul>
+		</div><!--navbar-header-->
+		<div class="navbar-collapse collapse">
+			<ul id="site-nav" class="nav nav-tabs">
+				<li role="presentation" class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+						About <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="about<?php if($section=="about"){echo " on";}?>"><a href="about.php">About</a></li>
+						<li class="officers<?php if($section=="officers"){echo " on";}?>"><a href="officers.php">Officers</a></li>
+					</ul>
+				</li><!--Dropdown menu-->
+				<li role="presentation" class="calendar<?php if($section=="calendar"){echo " on active";}?>"><a href="calendar.php">Calendar</a></li>
+				<li role="presentation" class="organizations<?php if($section=="contest"){echo " on active";}?>"><a href="contest.php">Bi-weekly Math Contest</a></li>
+				<li role="presentation" class="organizations<?php if($section=="organizations"){echo " on active";}?>"><a href="organizations.php">Organizations</a></li>
+			</ul>
+		</div><!--navbar-collapse-->
 	</nav>
