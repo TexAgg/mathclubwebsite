@@ -40,6 +40,7 @@
 
 <body>
 	<div id="site-header" class="jumbotron">
+		<!-- This is also optional. It is the logo I made. -->
 		<img src="img/Logo.svg" width="140" class="pull-right"></img>
 		<div id="header-words">
 			<h1>Math Club</h1>
