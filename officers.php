@@ -34,6 +34,8 @@
 		$officers[n][3]: The url of a picture of the officer.
 		
 		for n in count($officers).
+		$officers[0] is the president, $officers[1] is the vice-president,
+		$officers[2] is the treasurer, and $officer[3] is the webmaster.
 	*/
 	
 	include("inc/header.php");
@@ -48,7 +50,7 @@
 			
 			for($i = 0; $i < count($officers); $i++)
 			{
-				echo "<li class=\"media\">";
+				echo "<li class=\"media\" id=\"officer".$i."\">";
 				
 				// Media object.
 				echo "<div class=\"media-left\">";

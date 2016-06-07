@@ -20,12 +20,12 @@
 	<div id="contest-about">
 		<h3>About</h3>
 		<p>
-			Twice a month, the <a href="officers.php">vice-president</a> will send out a math problem, 
+			Twice a month, the <a href="officers.php#officer1">vice-president</a> will send out a math problem, 
 			as well as post it outside the math lounge (room 242) on the second floor of Blocker.
 		</p>
 		<p>
 			Submit your answer either by paper in the math office next to the lounge (Blocker 241C) 
-			or email to the <a href="officers.php">vice-president</a>. 
+			or email to the <a href="officers.php#officer1">vice-president</a>. 
 			The student who submits the first correct solution gets a free math shirt, 
 			and the student who submits the most correct solutions throughout the year gets a free trip to MathFest, 
 			a national math conference!	
