@@ -13,10 +13,12 @@
 	include("inc/header.php");
 ?>
 
-<div id="<?php echo $section;?>" class="container">
-	<h2><?php echo $pageTitle; ?></h2>
+<div id="<?php echo $section;?>" class="container panel panel-default">
+	<div class="panel-heading">
+		<h2><?php echo $pageTitle; ?></h2>
+	</div>
 	<!-- Google calendar -->
-	<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4kl90qkd5vdkrr2pm2f0np8tk0%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	<iframe class="center-block" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=4kl90qkd5vdkrr2pm2f0np8tk0%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FChicago" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div><!--Section-->
 
 <?php

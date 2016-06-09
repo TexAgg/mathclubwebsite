@@ -26,7 +26,7 @@
 	include("inc/header.php");
 ?>
 
-<div id="<?php echo $section;?>" class="container">
+<div id="<?php echo $section;?>" class="container panel panel-default">
 	
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -77,6 +77,22 @@
 		Math Club is an umbrella organization for all undergraduate organizations in the Math Departament
 		at Texas A&M. 
 	</p>-->
+
+	<div>
+		<h3>Upcoming events</h3>
+		<?php
+			echo "<ul class=\"list-group\">";
+
+			echo "<li class=\"list-group-item\">Hey</li>";
+
+			/*
+				1. Get the next 3 events from Google Calendar.
+				2. Iterate through them and display.
+			*/
+
+			echo "</ul>";
+		?>
+	</div><!--Events Panel-->
 	
 </div><!--Section-->
 

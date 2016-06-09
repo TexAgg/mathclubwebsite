@@ -40,8 +40,10 @@
 	include("inc/header.php");
 ?>
 
-<div id="<?php echo $section;?>" class="container">
-	<h2><?php echo $pageTitle; ?></h2>
+<div id="<?php echo $section;?>" class="container panel panel-default">
+	<div class="panel-heading">
+		<h2><?php echo $pageTitle; ?></h2>
+	</div>
 	
 	<!-- Organizations go here. -->
 	<div class="panel-group">
@@ -56,7 +58,7 @@
 				// Heading.
 				echo "<div class=\"panel-heading\">";
 				echo "<h4 class=\"panel-title\">";
-				echo "<a data-toggle=\"collapse\" href=\"#org".$i."\">";
+				//echo "<a data-toggle=\"collapse\" href=\"#org".$i."\">";
 				echo $organizations_data[$i][0];
 				echo "</a></h4></div>";
 				

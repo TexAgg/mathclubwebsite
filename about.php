@@ -13,8 +13,10 @@
 	include("inc/header.php");
 ?>
 
-<div id="<?php echo $section;?>" class="container">
-	<h2><?php echo $pageTitle; ?></h2>
+<div id="<?php echo $section;?>" class="container panel panel-default">
+	<div class="panel-heading">
+		<h2><?php echo $pageTitle; ?></h2>
+	</div>
 	<p>
 		Math Club is an umbrella organization for all undergraduate organizations in the Math Departament
 		at Texas A&M. 
