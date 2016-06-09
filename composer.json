@@ -11,6 +11,7 @@
         "php": ">=5.0.0"
     },
     "require-dev": {
-        "heroku/heroku-buildpack-php": "^105.0"
+        "heroku/heroku-buildpack-php": "^105.0",
+        "symfony/filesystem": "^3.1"
     }
 }

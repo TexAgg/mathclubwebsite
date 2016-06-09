@@ -72,14 +72,34 @@
 	<div>
 		<h3>Upcoming events</h3>
 		<?php
+			// Get events from Google calendar. 
+
+			// http://blog.teamtreehouse.com/how-to-debug-in-php
+			//ini_set('display_errors', 'On');
+			require("utils/googleCalendar.php");
+			$events = getNextEvents();
+			//var_dump($events);
+
 			echo "<ul class=\"list-group\">";
 
-			echo "<li class=\"list-group-item\">Hey</li>";
+			for ($i = 0;  $i < count($events); $i++)
+			{
+				echo "<li class=\"list-group-item\">";
 
-			/*
-				1. Get the next 3 events from Google Calendar.
-				2. Iterate through them and display.
-			*/
+				echo "<a href='".$events[$i]['htmlLink']."'>";
+				echo "<h4 class='list-group-item-heading'>"
+					.$events[$i]['summary']
+					."</h4>";
+				echo "</a>";
+				echo "<h5 class='list-group-item-heading'>";
+				echo getStartDate($events[$i]['start']);
+				echo "</h5>";	
+				echo "<p class='list-group-item-text'>"
+					.$events[$i]['description']
+					."</p>";
+
+				echo "</li>";
+			}
 
 			echo "</ul>";
 		?>
