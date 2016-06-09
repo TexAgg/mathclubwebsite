@@ -52,3 +52,6 @@ These are various resources I found useful while developing the website.
 ### Compression
 * http://php.net/manual/en/function.ob-gzhandler.php
 * https://varvy.com/pagespeed/enable-compression.html
+
+### Password storage
+* [Config file](http://stackoverflow.com/a/15089031/5415895)

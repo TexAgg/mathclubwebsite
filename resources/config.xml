@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+		<!--This is the config file. 
+		All information important for the website will be stored here,
+		instead of CSV files, as it was before.-->
+		<officers>
+				<president>
+						<name>Sharon Wang</name>
+						<email>sharonwang@tamu.edu</email>
+						<image>img/officers/profile_default.jpg</image>
+				</president>
+				<vicePresident>
+						<name>Angelique Morvant</name>
+						<email>mae4102@tamu.edu</email>
+						<image>img/officers/profile_default.jpg</image>
+				</vicePresident>
+				<treasurer>
+						<name>Kathryn Sommers</name>
+						<email>katiesommers@tamu.edu</email>
+						<image>img/officers/profile_default.jpg</image>
+				</treasurer>
+				<webmaster>
+						<name>Matt Gaikema</name>
+						<email>matt.gaikema@tamu.edu</email>
+						<image>img/officers/me.jpg</image>
+				</webmaster>
+		</officers>
+		<homeImages>
+				<item>
+						<header>AMUSe</header>
+						<description>Where mathematics meets application.</description>
+						<image>img/home/homer.jpg</image>
+						<url>organizations.php#org1</url>
+				</item>
+				<item>
+						<header>About Math Club</header>
+						<description />
+						<image>img/home/temp-math.jpg</image>
+						<url>about.php</url>
+				</item>
+				<item>
+						<header>Bi-Weekly Math Contest</header>
+						<description>Be the first to solve it for a prize!</description>
+						<image>img/home/contest.svg</image>
+						<url>contest.php</url>
+				</item>
+				<item>
+						<header>Aggie Actuaries</header>
+						<description />
+						<image>img/home/aggie-actuaries.png</image>
+						<url>organizations.php#org2</url>
+				</item>
+		</homeImages>
+		<organizations>
+				<item>
+						<name>AWM (Association for Women in Mathematics)</name>
+						<url>https://sites.google.com/site/awmmath/home</url>
+						<description>An organization for women passionate about mathematics.</description>
+				</item>
+				<item>
+						<name>AMUSe (Applied Math Undergrad Seminar</name>
+						<url>http://www.math.tamu.edu/seminars/amuse/</url>
+						<description>The purpose of this seminar is to introduce undergraduates to applications of mathematics in fields such as finance, engineering, biology, and physics.</description>
+				</item>
+				<item>
+						<name>Aggie Actuaries</name>
+						<url>https://maroonlink.tamu.edu/organization/aggieactuaries</url>
+						<description>An organization to help Aggie students further their understanding of actuarial science.</description>
+				</item>
+		</organizations>
+		<config>
+				<googleCalendar>
+						<calendarID>4kl90qkd5vdkrr2pm2f0np8tk0@group.calendar.google.com</calendarID>
+						<developerKey>AIzaSyDjp19B5eMwKT9VZwAronknu5RbPGVGhhY</developerKey>
+						<apiKey>AIzaSyDjp19B5eMwKT9VZwAronknu5RbPGVGhhY</apiKey>
+				</googleCalendar>
+		</config>
+</root>
