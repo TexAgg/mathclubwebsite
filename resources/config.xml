@@ -30,7 +30,7 @@
 						<header>AMUSe</header>
 						<description>Where mathematics meets application.</description>
 						<image>img/home/homer.jpg</image>
-						<url>organizations.php#org1</url>
+						<url>organizations.php</url>
 				</item>
 				<item>
 						<header>About Math Club</header>
@@ -48,7 +48,7 @@
 						<header>Aggie Actuaries</header>
 						<description />
 						<image>img/home/aggie-actuaries.png</image>
-						<url>organizations.php#org2</url>
+						<url>organizations.php</url>
 				</item>
 		</homeImages>
 		<organizations>

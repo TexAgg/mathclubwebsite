@@ -8,14 +8,7 @@ At the moment the site is hosted [here](https://peaceful-atoll-84937.herokuapp.c
 If you are a future webmaster, and don't know any PHP or HTML, fear not.
 I have tried to make the website fairly easy to update.
 All information that is likely to change is stored 
-in one of the CSV (Comma-Seperated Values) files
-in the `resources` folder.
-There, you can update the current officers, 
-the images on the homepage of the website,
-or any organizations by editing either
-`officers.csv`, `homeImages.csv`, or `organizations.csv`, respectively.
-Various resources are saved in [this](https://drive.google.com/folderview?id=0BwjQwHPO5djrc1pvVFlxOUR4V3M&usp=sharing)
-Google folder.
+in config.XML.
 
 ### Calendar
 The calendar is found [here](https://calendar.google.com/calendar/embed?src=4kl90qkd5vdkrr2pm2f0np8tk0%40group.calendar.google.com&ctz=America/Chicago).
