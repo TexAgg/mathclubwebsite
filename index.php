@@ -11,17 +11,8 @@
 	$section = "home";
 	$organization = "Math Club";
 	
-	$images = [];
-	$file = fopen("resources/homeImages.csv","r");
-	
-		while(!feof($file))
-	{
-		$images[] = fgetcsv($file);
-	}
-
-	fclose($file);
-	
-	array_shift($images);
+	$config = simplexml_load_file("resources/config.xml");
+	$images = $config->homeImages->item;
 
 	include("inc/header.php");
 ?>
@@ -49,12 +40,12 @@
 						echo "<div class=\"item active\">";
 					else
 						echo "<div class=\"item\">";
-					echo "<a href=\"".$images[$i][3]."\">";
-					echo "<img class=\"carouselImg\" src=\"".$images[$i][2]."\"></img>";
+					echo "<a href=\"".$images[$i]->url."\">";
+					echo "<img class=\"carouselImg\" src=\"".$images[$i]->image."\"></img>";
 					// Caption
 					echo "<div class=\"carousel-caption\">";
-					echo "<h3>".$images[$i][0]."</h3>";// Header
-					echo "<p>".$images[$i][1]."</p>";// Body
+					echo "<h3>".$images[$i]->header."</h3>";// Header
+					echo "<p>".$images[$i]->description."</p>";// Body
 					echo "</div>";//carousel-caption
 					echo "</a>";
 					echo "</div>"; //item

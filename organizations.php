@@ -11,9 +11,7 @@
 	$section = "organizations";
 
 	$config = simplexml_load_file("resources/config.xml");
-	//var_dump($config);
 	$organizations_data = $config->organizations->item;
-	var_dump($organizations_data);
 
 	include("inc/header.php");
 ?>
