@@ -22,7 +22,7 @@
 	fclose($file);
 	
 	array_shift($images);
-	
+
 	include("inc/header.php");
 ?>
 

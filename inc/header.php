@@ -7,6 +7,9 @@
 	Date Created: 5/21/16
 */	
 
+	//$config = simplexml_load_file("resources/config.XML");
+	//var_dump($config);
+
 	// Compress output.
 	// http://php.net/manual/en/function.ob-gzhandler.php
 	if(!ob_start("ob_gzhandler")) ob_start();
