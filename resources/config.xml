@@ -4,26 +4,30 @@
 		All information important for the website will be stored here,
 		instead of CSV files, as it was before.-->
 		<officers>
-				<president>
+				<item>
 						<name>Sharon Wang</name>
 						<email>sharonwang@tamu.edu</email>
 						<image>img/officers/profile_default.jpg</image>
-				</president>
-				<vicePresident>
+						<position>President</position>
+				</item>
+				<item>
 						<name>Angelique Morvant</name>
 						<email>mae4102@tamu.edu</email>
 						<image>img/officers/profile_default.jpg</image>
-				</vicePresident>
-				<treasurer>
+						<position>Vice President</position>
+				</item>
+				<item>
 						<name>Kathryn Sommers</name>
 						<email>katiesommers@tamu.edu</email>
 						<image>img/officers/profile_default.jpg</image>
-				</treasurer>
-				<webmaster>
+						<position>Treasurer</position>
+				</item>
+				<item>
 						<name>Matt Gaikema</name>
 						<email>matt.gaikema@tamu.edu</email>
 						<image>img/officers/me.jpg</image>
-				</webmaster>
+						<position>Webmaster</position>
+				</item>
 		</officers>
 		<homeImages>
 				<item>
