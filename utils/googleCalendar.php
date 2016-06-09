@@ -1,4 +1,11 @@
 <?php
+/*
+	googleCalendar.php
+	Utility methods for interacting with the google calendar API.
+
+	Author: Matt Gaikema
+	Date Created: 6/9/16
+*/
 
 /**
 	Returns an associative array with the next 3 events
