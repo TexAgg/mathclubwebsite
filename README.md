@@ -26,6 +26,10 @@ The git repository for this website is [here](https://bitbucket.org/tamumathclub
 ### Dependencies
 I did my best to use no external dependancies or external libraries,
 since I don't know what the TAMU math department servers support.
+The website does use the [Google Calendar API](https://developers.google.com/google-apps/calendar/v3/reference/events/list#parameters),
+but doesn't use any client libraries for the previously mentioned reason 
+(and because they all have little to no documentation).
+Instead, it uses http GET requests to pull information from the google calendar.
 
 ### Further Questions
 If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.edu](mailto:matt.gaikema@tamu.edu).

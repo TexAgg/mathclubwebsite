@@ -18,8 +18,14 @@
 		<h2><?php echo $pageTitle; ?></h2>
 	</div>
 	<p>
-		Math Club is an umbrella organization for all undergraduate organizations in the Math Departament
-		at Texas A&M. 
+		Math Club is an umbrella organization for all undergraduate <a href="organizations.php">organizations</a> in the Math Departament
+		at Texas A&M.
+		We hold joint monthly meetings and events.
+		At these meetings, speakers are invited to share information with and talk to members.
+		Often, prospective employers will visit and give presentations about their companies.
+		Additionally, we sponsor the <a href="organizations.php">AMUSe</a> seminars, 
+		in which guest speakers share applications of mathematics in their fields.
+		We also distribute information on departmental activities and any contests or conferences.
 	</p>
 	
 	<h3 id="about-membership">Membership</h3>
