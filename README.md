@@ -8,7 +8,7 @@ At the moment the site is hosted [here](https://peaceful-atoll-84937.herokuapp.c
 If you are a future webmaster, and don't know any PHP or HTML, fear not.
 I have tried to make the website fairly easy to update.
 All information that is likely to change is stored 
-in config.XML.
+in `resources/config.xml`.
 
 ### Calendar
 The calendar is found [here](https://calendar.google.com/calendar/embed?src=4kl90qkd5vdkrr2pm2f0np8tk0%40group.calendar.google.com&ctz=America/Chicago).
@@ -22,6 +22,10 @@ and the website will update itself automatically whenever a new post is made.
 ### Version Control
 If you aren't familiar with [git](https://git-scm.com/), skip this.
 The git repository for this website is [here](https://bitbucket.org/tamumathclub/website/overview).
+
+### Dependencies
+I did my best to use no external dependancies or external libraries,
+since I don't know what the TAMU math department servers support.
 
 ### Further Questions
 If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.edu](mailto:matt.gaikema@tamu.edu).
