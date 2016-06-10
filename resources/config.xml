@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 		<!--This is the config file. 
-		All information important for the website will be stored here,
-		instead of CSV files, as it was before.-->
+All information important for the website will be stored here,
+instead of CSV files, as it was before.-->
 		<officers>
 				<item>
 						<name>Sharon Wang</name>
@@ -70,6 +70,44 @@
 						<name>Aggie Actuaries</name>
 						<url>https://maroonlink.tamu.edu/organization/aggieactuaries</url>
 						<description>An organization to help Aggie students further their understanding of actuarial science.</description>
+				</item>
+				<item>
+						<name>MAA (Mathematical Association of America)</name>
+						<url>http://www.maa.org/</url>
+						<description>
+								<!--use CDATA to include html tags without having them be interpreted as XML.
+http://stackoverflow.com/questions/2784183/what-does-cdata-in-xml-mean--><![CDATA[The Texas A&amp;M student chapter of the 
+<a href="http://www.maa.org/">Mathematical Association of America</a>
+is open to all students that have an
+interest in mathematics. There are no scholastic requirements such as
+class standing or grade point average. Students from any major are
+welcome to join. The cost of membership is $20 per year for a student
+who chooses to receive either The College Mathematics Journal,
+Mathematics Magazine, or Math Horizons.<b> Even if decide not to
+become a member, you can still attend the meetings.</b> For students
+who choose The American Mathematical Monthly, the cost is $30 per
+year. In addition to receiving their choice of journals, students will
+receive discounts on meeting registration fees and MAA publications,
+information on graduate study and career opportunities, information
+about speakers, and opportunities to participate in student paper
+sessions at sectional meetings. For more information about the
+sectional meetings see
+the <a href="http://www.shsu.edu/~mth_jaj/tx_section/">MAA Sectional
+Meeting Schedule</a> . Please read 
+<a href="constitution_maa.html">the constitution</a> for our chapter of
+the MAA. ]]></description>
+				</item>
+				<item>
+						<name>Pi Mu Epsilon</name>
+						<url>http://www.pme-math.org/</url>
+						<description><![CDATA[<a href="http://www.pme-math.org">Pi Mu Epsilon</a> is an honorary
+mathematics organization whose motto is to 
+promote scholarship and mathematics. Students are required to meet certain
+<a href="pme-req.html">requirements</a> in order to join Pi Mu
+Epsilon. There is a $20 lifetime 
+membership fee. This includes a one-year membership to the Pi Mu Epsilon
+Journal. Like MAA, there is no membership required to attend the meetings.
+The constitution for our chapter of Pi Mu Epsilon can be found here. ]]></description>
 				</item>
 		</organizations>
 		<config>

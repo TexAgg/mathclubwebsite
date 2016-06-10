@@ -43,7 +43,7 @@
 				echo "<p>";
 				echo $organizations_data[$i]->description;
 				echo "</p>";
-				echo "<br></br><a href=".$organizations_data[$i]["url"].">".$organizations_data[$i]["url"]."</a>";
+				echo "<br></br><a href=".$organizations_data[$i]->url.">".$organizations_data[$i]->url."</a>";
 				echo "</div>";
 				
 				// End panel.
