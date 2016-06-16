@@ -28,6 +28,12 @@ instead of CSV files, as it was before.-->
 						<image>img/officers/me.jpg</image>
 						<position>Webmaster</position>
 				</item>
+				<item>
+						<name>Phillip Yasskin</name>
+						<email>yasskin@math.tamu.edu</email>
+						<image>img/officers/yasskin.jpg</image>
+						<position>Faculty Advisor</position>
+				</item>
 		</officers>
 		<homeImages>
 				<item>
