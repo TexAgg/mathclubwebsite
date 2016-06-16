@@ -6,7 +6,7 @@ ini_set("display_errors", 1);
 
 $site_url = 'C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website';
 
-require $site_url . '\\vendor\\autoload.php';
+require $site_url . '\vendor\autoload.php';
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 // https://symfony.com/doc/current/components/filesystem/introduction.html#usage

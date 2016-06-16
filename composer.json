@@ -8,10 +8,11 @@
         }
     ],
     "require": {
-        "php": ">=5.0.0"
+        "php": ">=5.5.0"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "^105.0",
-        "symfony/filesystem": "^3.1"
+        "symfony/filesystem": "^3.1",
+        "squizlabs/php_codesniffer": "^2.6"
     }
 }
