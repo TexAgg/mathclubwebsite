@@ -7,8 +7,9 @@
 	Date Created: 5/21/16
 */	
 
-	//$config = simplexml_load_file("resources/config.XML");
-	//var_dump($config);
+	// Display errors.
+	/*error_reporting(E_ALL);
+	ini_set("display_errors", 1);*/
 
 	// Compress output.
 	// http://php.net/manual/en/function.ob-gzhandler.php

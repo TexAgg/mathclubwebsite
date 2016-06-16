@@ -2,6 +2,7 @@
 # Added by me
 resources/requirements1.txt
 resources/requirements2.txt
+.env
 
 
 # Created by https://www.gitignore.io/api/composer,visualstudiocode

@@ -39,9 +39,6 @@ If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.
 ## Development Resources
 These are various resources I found useful while developing the website.
 
-* https://developers.google.com/speed/libraries/#top_of_page
-* http://brandguide.tamu.edu/colors.html
-
 ### PHP
 * [Symphony docs](https://symfony.com/pdf/Symfony_components_3.0.pdf?v=4)
 * [newline](http://stackoverflow.com/a/20749472/5415895)
@@ -56,3 +53,8 @@ These are various resources I found useful while developing the website.
 
 ### Password storage
 * [Config file](http://stackoverflow.com/a/15089031/5415895)
+*[dotenv](https://github.com/vlucas/phpdotenv)
+
+### Misc.
+* https://developers.google.com/speed/libraries/#top_of_page
+* http://brandguide.tamu.edu/colors.html

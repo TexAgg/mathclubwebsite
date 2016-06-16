@@ -16,11 +16,6 @@
 */
 function getNextEvents()
 {
-	/*
-	$config = simplexml_load_file("..\\resources\\config.xml");
-	var_dump($config);
-	echo "<br>";
-	*/
 
 	// timeMin is now.
 	$dt = new DateTime('now', new DateTimeZone("-5"));

@@ -7,6 +7,14 @@
 	Date Created: 5/21/16
 */
 	
+	/*
+	require __DIR__ . '/vendor/autoload.php';
+
+	// Set Environmental Variables.
+	$dotenv = new Dotenv\Dotenv(__DIR__);
+	$dotenv->load();
+	*/
+
 	$pageTitle = "Tamu Math Club";
 	$section = "home";
 	$organization = "Math Club";
