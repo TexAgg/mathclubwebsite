@@ -23,7 +23,9 @@ function getNextEvents()
 	//var_dump($min);
 	$timeMin = urlencode($min);
 
-	$json = file_get_contents("https://www.googleapis.com/calendar/v3/calendars/4kl90qkd5vdkrr2pm2f0np8tk0@group.calendar.google.com/events"
+	$json = file_get_contents("https://www.googleapis.com/calendar/v3/calendars/"
+		."4kl90qkd5vdkrr2pm2f0np8tk0@group.calendar.google.com"
+		."/events"
 		."?key=AIzaSyDjp19B5eMwKT9VZwAronknu5RbPGVGhhY"
 		."&maxResults=3"
 		."&timeMin=".$timeMin);

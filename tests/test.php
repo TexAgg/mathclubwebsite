@@ -13,7 +13,7 @@ use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 $fs = new Filesystem();
 
 $path = $fs->makePathRelative(
-	'C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website\resources',
+	'C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website',
 	'C:\Users\mgaik\Dropbox\Math\Pi Mu Epsilon\Website\utils'
 );
 
