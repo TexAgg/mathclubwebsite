@@ -7,10 +7,10 @@
 	Date Created: 5/31/16
 */
 
-	$pageTitle = "About";
-	$section = "about";
-	
-	include("templates/header.php");
+$pageTitle = "About";
+$section = "about";
+
+include("templates/header.php");
 ?>
 
 <div id="<?php echo $section;?>" class="container panel panel-default">
@@ -37,5 +37,5 @@
 </div><!--Section-->
 
 <?php
-	include("templates/footer.php");
+include("templates/footer.php");
 ?>	

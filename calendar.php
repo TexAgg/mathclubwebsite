@@ -7,10 +7,10 @@
 	Date Created: 5/25/16
 */
 	
-	$pageTitle = "Calendar";
-	$section = "calendar";
-	
-	include("templates/header.php");
+$pageTitle = "Calendar";
+$section = "calendar";
+
+include("templates/header.php");
 ?>
 
 <div id="<?php echo $section;?>" class="container panel panel-default">
@@ -22,5 +22,5 @@
 </div><!--Section-->
 
 <?php
-	include("templates/footer.php");
+include("templates/footer.php");
 ?>	

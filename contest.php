@@ -8,10 +8,10 @@
 	Date Created: 5/31/16
 */	
 
-	$pageTitle = "Bi-Weekly Math Contest";
-	$section = "contest";
-	
-	include("templates/header.php");
+$pageTitle = "Bi-Weekly Math Contest";
+$section = "contest";
+
+include("templates/header.php");
 ?>
 
 <div id="<?php echo $section;?>" class="container panel panel-default">
@@ -41,20 +41,20 @@
 		Show that all the zeros of \(\zeta\) have a real part of \(-\frac{1}{2}\).-->
 		
 		<?php
-			/* 
-				Read xml at http://mathclubtamu.blogspot.com/feeds/posts/default
-				and parse it.
-			*/
-			
-			$xml = simplexml_load_file("http://mathclubtamu.blogspot.com/feeds/posts/default");
-			//var_dump($xml);
-			$current = $xml->entry[0];
-			
-			echo "<h3>".$current->title."</h3>";
-			echo "<p>".$current->content."</p>";
-			
-			//echo "<br></br>";
-			echo "<p><small>Published ".$current->published.".</small></p>";
+		/* 
+			Read xml at http://mathclubtamu.blogspot.com/feeds/posts/default
+			and parse it.
+		*/
+		
+		$xml = simplexml_load_file("http://mathclubtamu.blogspot.com/feeds/posts/default");
+		//var_dump($xml);
+		$current = $xml->entry[0];
+		
+		echo "<h3>".$current->title."</h3>";
+		echo "<p>".$current->content."</p>";
+		
+		//echo "<br></br>";
+		echo "<p><small>Published ".$current->published.".</small></p>";
 		?>	
 		
 	</div><!-- contest-problem-->
@@ -62,5 +62,5 @@
 </div><!--Section-->
 
 <?php
-	include("templates/footer.php");
+include("templates/footer.php");
 ?>	
