@@ -22,7 +22,7 @@
 	$config = simplexml_load_file("resources/config.xml");
 	$images = $config->homeImages->item;
 
-	include("inc/header.php");
+	include("templates/header.php");
 ?>
 
 <div id="<?php echo $section;?>" class="container panel panel-default">
@@ -116,5 +116,5 @@
 </div><!--Section-->
 
 <?php
-	include("inc/footer.php");
+	include("templates/footer.php");
 ?>

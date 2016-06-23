@@ -13,7 +13,7 @@
 	$config = simplexml_load_file("resources/config.xml");
 	$organizations_data = $config->organizations->item;
 
-	include("inc/header.php");
+	include("templates/header.php");
 ?>
 
 <div id="<?php echo $section;?>" class="container panel panel-default">
@@ -57,5 +57,5 @@
 </div>
 
 <?php
-	include("inc/footer.php");
+	include("templates/footer.php");
 ?>	
