@@ -7,6 +7,8 @@
 	Date Created: 6/9/16
 */
 
+namespace TamuMathClub\Website\Utils;
+
 /**
 	Returns an associative array with the next 3 events
 	on the Math Club calendar.
@@ -18,18 +20,18 @@ function getNextEvents()
 {
 
 	// timeMin is now.
-	$dt = new DateTime('now', new DateTimeZone("-5"));
-	$min = date_format($dt, DATE_RFC3339);
+	$dt = new \DateTime('now', new \DateTimeZone("-5"));
+	$min = \date_format($dt, DATE_RFC3339);
 	//var_dump($min);
-	$timeMin = urlencode($min);
+	$timeMin = \urlencode($min);
 
-	$json = file_get_contents("https://www.googleapis.com/calendar/v3/calendars/"
+	$json = \file_get_contents("https://www.googleapis.com/calendar/v3/calendars/"
 		."4kl90qkd5vdkrr2pm2f0np8tk0@group.calendar.google.com"
 		."/events"
 		."?key=AIzaSyDjp19B5eMwKT9VZwAronknu5RbPGVGhhY"
 		."&maxResults=3"
 		."&timeMin=".$timeMin);
-	$val = json_decode($json, true);
+	$val = \json_decode($json, true);
 	return $val['items'];
 
 }
@@ -47,9 +49,9 @@ function getNextEvents()
 */
 function getStartDate($dateArray)
 {
-	$num = array_values($dateArray);
-	$dt = new DateTime($num[0]);
-	return date_format($dt, "Y/m/d");
+	$num = \array_values($dateArray);
+	$dt = new \DateTime($num[0]);
+	return \date_format($dt, "Y/m/d");
 }
 
 ?>

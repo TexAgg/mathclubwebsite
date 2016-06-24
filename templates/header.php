@@ -8,8 +8,8 @@
 */	
 
 	// Display errors.
-	/*error_reporting(E_ALL);
-	ini_set("display_errors", 1);*/
+	error_reporting(E_ALL);
+	ini_set("display_errors", 1);
 
 	// Compress output.
 	// http://php.net/manual/en/function.ob-gzhandler.php

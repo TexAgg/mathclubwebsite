@@ -8,6 +8,8 @@
 	Date Created: 5/31/16
 */	
 
+namespace TamuMathClub\Website;
+
 $pageTitle = "Bi-Weekly Math Contest";
 $section = "contest";
 

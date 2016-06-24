@@ -6,7 +6,9 @@
 	Author: Matt Gaikema
 	Date Created: 5/25/16
 */
-	
+
+namespace TamuMathClub\Website;
+
 $pageTitle = "Calendar";
 $section = "calendar";
 

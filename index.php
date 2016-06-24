@@ -6,14 +6,9 @@
 	Author: Matt Gaikema
 	Date Created: 5/21/16
 */
-	
-/*
-require __DIR__ . '/vendor/autoload.php';
 
-// Set Environmental Variables.
-$dotenv = new Dotenv\Dotenv(__DIR__);
-$dotenv->load();
-*/
+namespace TamuMathClub\Website;
+use TamuMathClub\Website\Utils;
 
 $pageTitle = "Tamu Math Club";
 $section = "home";
@@ -85,7 +80,7 @@ include("templates/header.php");
 		// http://blog.teamtreehouse.com/how-to-debug-in-php
 		//ini_set('display_errors', 'On');
 		require("utils/googleCalendar.php");
-		$events = getNextEvents();
+		$events = Utils\getNextEvents();
 		//var_dump($events);
 
 		echo "<ul class=\"list-group\">";
@@ -100,7 +95,7 @@ include("templates/header.php");
 				."</h4>";
 			echo "</a>";
 			echo "<h5 class='list-group-item-heading'>";
-			echo getStartDate($events[$i]['start']);
+			echo Utils\getStartDate($events[$i]['start']);
 			echo "</h5>";	
 			echo "<p class='list-group-item-text'>"
 				.$events[$i]['description']

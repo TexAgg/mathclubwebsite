@@ -7,6 +7,8 @@
 	Date Created: 5/31/16
 */
 
+namespace TamuMathClub\Website;
+
 $pageTitle = "About";
 $section = "about";
 
