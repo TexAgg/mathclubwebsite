@@ -1,18 +1,36 @@
 {
     "name": "mgaik/math_club_website",
     "description": "The website for the TAMU Math Club",
+    "keywords": [
+        "tamu",
+        "Texas A&M",
+        "Math Club",
+        "Website"
+    ],
     "authors": [
         {
             "name": "Matt G",
-            "email": "matt.gaikema@tamu.edu"
+            "email": "matt.gaikema@tamu.edu",
+            "homepage": "http://mattgaikema.com/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gaikema@bitbucket.org/tamumathclub/website.git"
+        }
+    ],
+    "support": {
+        "email": "matt.gaikema@tamu.edu",
+        "issues": "https://bitbucket.org/tamumathclub/website/issues?status=new&status=open",
+        "source": "https://bitbucket.org/tamumathclub/website/src",
+        "rss": "https://bitbucket.org/tamumathclub/website/rss?token=c828b4a80dc639e7e44c3cbf069d1054"
+    },
     "require": {
         "php": ">=5.5.0"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "^105.0",
-        "symfony/filesystem": "^3.1",
-        "squizlabs/php_codesniffer": "^2.6"
+        "symfony/filesystem": "^3.1"
     }
 }
