@@ -32,5 +32,8 @@
     "require-dev": {
         "heroku/heroku-buildpack-php": "^105.0",
         "symfony/filesystem": "^3.1"
+    },
+    "autoload": {
+        "files": ["utils/googleCalendar.php"]
     }
 }
