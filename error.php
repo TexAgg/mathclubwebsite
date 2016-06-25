@@ -1,5 +1,13 @@
 <?php
-// https://css-tricks.com/snippets/php/error-page-to-handle-all-errors/
+/*
+	error.php
+	This is the error page displayed when an http error is reported.
+	Most of this code was copied from 
+	https://css-tricks.com/snippets/php/error-page-to-handle-all-errors/
+
+	Author: Matt Gaikema
+	Date Created: 6/24/16
+*/
 
 $status = $_SERVER['REDIRECT_STATUS'];
 $codes = array(
