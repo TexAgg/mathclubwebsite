@@ -35,10 +35,6 @@ include("templates/header.php");
 	</div>
 	
 	<div id="contest-problem" class="well">
-		<!--<h3>Current Problem</h3>-->
-		<!-- This is just a placeholder for now. -->
-		<!--Let \(\zeta(n)\) be defined by $$\zeta(n):=\sum_{s=1}^{\infty}\frac{1}{n^s}.$$
-		Show that all the zeros of \(\zeta\) have a real part of \(-\frac{1}{2}\).-->
 		
 		<?php
 		/* 
@@ -54,7 +50,11 @@ include("templates/header.php");
 		echo "<p>".$current->content."</p>";
 		
 		//echo "<br></br>";
-		echo "<p><small>Published ".$current->published.".</small></p>";
+		echo "<p>";
+		echo "<small>Published ".$current->published.".</small>";
+		echo "<a href=\"http://mathclubtamu.blogspot.com/feeds/posts/default\">"
+			."<img class=\"rss-icon\" src=\"img/feed-icon-14x14.png\"></img></a>";
+		echo "</p>";
 		?>	
 		
 	</div><!-- contest-problem-->

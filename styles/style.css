@@ -54,6 +54,13 @@ body
 	width: 128px;
 }
 
+.rss-icon
+{
+	/* http://www.w3schools.com/cssref/css3_pr_filter.asp */
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
 /* https://github.com/TexAgg/TexAgg.github.io/blob/dynamic/styles/style.css#L50 */
 footer
 {

@@ -19,7 +19,7 @@ class GoogleCalendar {
 	static function getNextEvents()
 	{
 
-		// timeMin is now.
+		// timeMin is the current time.
 		$dt = new DateTime('now', new DateTimeZone("-5"));
 		$min = date_format($dt, DATE_RFC3339);
 		//var_dump($min);
