@@ -72,18 +72,13 @@ include("templates/header.php");
 	</div><!--Carousel-->
 	
 	<h2>Welcome to Math Club</h2>
-	<!--<p>
-		Math Club is an umbrella organization for all undergraduate organizations in the Math Departament
-		at Texas A&M. 
-	</p>-->
 
 	<div>
 		<h3>Upcoming events</h3>
 		<?php
 		// Get events from Google calendar. 
 
-		// http://blog.teamtreehouse.com/how-to-debug-in-php
-		//ini_set('display_errors', 'On');
+		// Get file with functions.
 		require("utils/googleCalendar.php");
 		$events = GoogleCalendar::getNextEvents();
 		//var_dump($events);
