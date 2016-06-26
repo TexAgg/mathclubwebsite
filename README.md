@@ -53,7 +53,10 @@ These are various resources I found useful while developing the website.
 
 ### Password storage
 * [Config file](http://stackoverflow.com/a/15089031/5415895)
-*[dotenv](https://github.com/vlucas/phpdotenv)
+* [dotenv](https://github.com/vlucas/phpdotenv)
+
+### Timing functions
+* [Log file](http://stackoverflow.com/a/865669/5415895)
 
 ### Misc.
 * https://developers.google.com/speed/libraries/#top_of_page

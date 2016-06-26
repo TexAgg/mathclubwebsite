@@ -7,13 +7,13 @@
 	Date Created: 5/21/16
 */	
 
-	// Display errors.
-	/*error_reporting(E_ALL);
-	ini_set("display_errors", 1);*/
+// Display errors.
+/*error_reporting(E_ALL);
+ini_set("display_errors", 1);*/
 
-	// Compress output.
-	// http://php.net/manual/en/function.ob-gzhandler.php
-	if(!ob_start("ob_gzhandler")) ob_start();
+// Compress output.
+// http://php.net/manual/en/function.ob-gzhandler.php
+if(!ob_start("ob_gzhandler")) ob_start();
 ?>
 <!Doctype html>
 <html lang="en">
@@ -44,7 +44,7 @@
 <body>
 	<div id="site-header" class="jumbotron">
 		<!-- This is also optional. It is the logo I made. -->
-		<img src="img/Logo.svg" width="140" class="pull-right"></img>
+		<img id="header-icon" src="img/Logo.svg" width="140" class="pull-right"></img>
 		<div id="header-words">
 			<h1>Math Club</h1>
 			<p id="site-subheader">
