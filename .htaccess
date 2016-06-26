@@ -1,3 +1,9 @@
+## Rewrite engine
+### https://www.sitepoint.com/apache-mod_rewrite-examples-2/
+
+RewriteEngine on
+RewriteRule ^/?([a-z]+)$ $1.php [L]
+
 ## Error page
 
 ErrorDocument 400 /error.php
