@@ -40,25 +40,25 @@ instead of CSV files, as it was before.-->
 						<header>AMUSe</header>
 						<description>Where mathematics meets application.</description>
 						<image>img/home/homer.jpg</image>
-						<url>organizations.php</url>
+						<url>organizations</url>
 				</item>
 				<item>
 						<header>About Math Club</header>
 						<description />
 						<image>img/home/temp-math.jpg</image>
-						<url>about.php</url>
+						<url>about</url>
 				</item>
 				<item>
 						<header>Bi-Weekly Math Contest</header>
 						<description>Be the first to solve it for a prize!</description>
 						<image>img/home/contest.svg</image>
-						<url>contest.php</url>
+						<url>contest</url>
 				</item>
 				<item>
 						<header>Aggie Actuaries</header>
 						<description />
 						<image>img/home/aggie-actuaries.png</image>
-						<url>organizations.php</url>
+						<url>organizations</url>
 				</item>
 		</homeImages>
 		<organizations>
