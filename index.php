@@ -7,9 +7,10 @@
 	Date Created: 5/21/16
 */
 	
-/*
-require __DIR__ . '/vendor/autoload.php';
 
+//require __DIR__ . '/vendor/autoload.php';
+
+/*
 // Set Environmental Variables.
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
@@ -80,7 +81,7 @@ include("templates/header.php");
 
 		// Get file with functions.
 		require("utils/googleCalendar.php");
-		$events = GoogleCalendar::getNextEvents();
+		$events = GoogleCalendar::getNextEvents(3);
 		//var_dump($events);
 
 		echo "<ul class=\"list-group\">";

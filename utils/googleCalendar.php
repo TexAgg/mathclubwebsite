@@ -15,8 +15,10 @@ class GoogleCalendar {
 		Since I didn't want to use any external HTTP libraries without
 		knowing what the Math servers supported, I just read the JSON
 		at the request url.
+
+		@param The number of events to return.
 	*/
-	static function getNextEvents()
+	static function getNextEvents(int $num_events)
 	{
 
 		// timeMin is the current time.
@@ -29,7 +31,7 @@ class GoogleCalendar {
 			."4kl90qkd5vdkrr2pm2f0np8tk0@group.calendar.google.com"
 			."/events"
 			."?key=AIzaSyDjp19B5eMwKT9VZwAronknu5RbPGVGhhY"
-			."&maxResults=3"
+			."&maxResults=".$num_events
 			."&timeMin=".$timeMin);
 		$val = json_decode($json, true);
 		return $val['items'];
