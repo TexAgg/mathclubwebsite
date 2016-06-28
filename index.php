@@ -75,7 +75,10 @@ include("templates/header.php");
 	<h2>Welcome to Math Club</h2>
 
 	<div>
-		<h3>Upcoming events</h3>
+		<h3>
+		Upcoming events
+		<a href="app/rss"><img class="rss-icon" src="img/feed-icon-14x14.png"></img></a>
+		</h3>
 		<?php
 		// Get events from Google calendar. 
 

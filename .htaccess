@@ -1,8 +1,11 @@
+## Display errors (for debugging
+#php_flag display_errors 1
+
 ## Rewrite engine
 ### https://www.sitepoint.com/apache-mod_rewrite-examples-2/
 
 RewriteEngine on
-RewriteRule ^/?([a-z]+)$ $1.php [L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 ## Error page
 

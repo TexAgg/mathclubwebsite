@@ -31,6 +31,8 @@ but doesn't use any client libraries for the previously mentioned reason
 (and because they all have little to no documentation).
 Instead, it uses http GET requests to pull information from the google calendar.
 
+### Summary
+
 ### Further Questions
 If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.edu](mailto:matt.gaikema@tamu.edu).
 
@@ -43,6 +45,7 @@ These are various resources I found useful while developing the website.
 * [Symphony docs](https://symfony.com/pdf/Symfony_components_3.0.pdf?v=4)
 * [newline](http://stackoverflow.com/a/20749472/5415895)
 * [routing](https://github.com/klein/klein.php)
+* [Debugging 500 pages](http://stackoverflow.com/questions/17693391/500-internal-server-error-for-php-file-not-for-html)
 
 ### Bootstrap
 * [CSS](http://getbootstrap.com/css/)
