@@ -16,7 +16,7 @@ class GoogleCalendar {
 		knowing what the Math servers supported, I just read the JSON
 		at the request url.
 
-		@param The number of events to return.
+		@param int $num_events The number of events to return.
 	*/
 	static function getNextEvents(int $num_events)
 	{
