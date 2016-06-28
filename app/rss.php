@@ -23,4 +23,3 @@ $rss = new $rssFeed($xmlns, $aChannel, $url, $siteName);
 echo $rss->createFeed();
 
 ?>
-mlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" version="2.0"
