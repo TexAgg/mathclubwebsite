@@ -1,4 +1,10 @@
 <?php
+/**
+	Display the RSS feed for upcoming events.
+	
+	Author: Matt Gaikema
+	Date Created: 6/27/16
+*/
 // DEBUG ME
 
 header('Content-type: application/xml');
@@ -20,6 +26,9 @@ $aChannel = array(
 $siteName = "Tamu Math Club";
 
 $rss = new $rssFeed($xmlns, $aChannel, $url, $siteName);
-echo $rss->createFeed();
+//echo $rss->createFeed();
+$myfile = fopen("testfile.txt", "w");
+fwrite($myfile, $rss->createFeed());
+fclose($myfile);
 
 ?>
