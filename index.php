@@ -82,7 +82,7 @@ include("templates/header.php");
 		// Get file with functions.
 		require("utils/googleCalendar.php");
 		$events = GoogleCalendar::getNextEvents(3);
-		var_dump($events);
+		//var_dump($events);
 
 		echo "<ul class=\"list-group\">";
 
