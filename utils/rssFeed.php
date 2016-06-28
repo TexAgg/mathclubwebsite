@@ -53,7 +53,7 @@ class rssFeed {
 		// Channel required properties.
 		$xml .= '<channel>' ." \n";
 		$xml .= "<title>" . $this->aChannel["title"] . '</title>' . "\n";
-		$xml .= "<link>" . $this->aChannel["link"] . $this->aChannel["link"] . '</link>' . "\n";
+		$xml .= "<link>" . $this->aChannel["link"] . '</link>' . "\n";
 		$xml .= "<description>" . $this->aChannel["description"] . '</description>' . "\n";
 
 		// Channel optional properties.
@@ -64,7 +64,7 @@ class rssFeed {
 			$xml .= '<item>' . "\n";
 			$xml .= "<title>" . $item["title"] . '</title>' . "\n";
 			$xml .= "<link>" . $item["link"] . '</link>' . "\n";
-			$xml .= "<description>" . $item["description"] . '</description>' . "\n";
+			$xml .= "<description>" . htmlspecialchars($item["description"]) . '</description>' . "\n";
 			$xml .= "<pubDate>" . $item["pubDate"] . '</pubDate>' . "\n";
 			$xml .= "</item>\n";
 		}

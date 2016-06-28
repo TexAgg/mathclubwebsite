@@ -7,8 +7,8 @@
 */
 
 // http://stackoverflow.com/a/9720763/5415895
-//header('Content-type: application/xml');
-header('Content-type: text/plain');
+header('Content-type: application/xml');
+//header('Content-type: text/plain');
 
 require("../utils/rssFeed.php");
 //ini_set('display_errors', 1);
