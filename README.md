@@ -32,6 +32,12 @@ but doesn't use any client libraries for the previously mentioned reason
 Instead, it uses http GET requests to pull information from the google calendar.
 
 ### Summary
+There are 3 things to keep in mind when keeping the website up-to-date:
+1. The [Google Calendar](https://calendar.google.com/calendar/embed?src=4kl90qkd5vdkrr2pm2f0np8tk0%40group.calendar.google.com&ctz=America/Chicago),
+which contains all of the upcoming events.
+2. The [math contest blog](http://mathclubtamu.blogspot.com/), 
+where the questions are posted.
+3. 'resources/config.xml', which is where information on the current officers an organizations is pulled from.
 
 ### Further Questions
 If you have any questions, feel free to shoot me an email at [matt.gaikema@tamu.edu](mailto:matt.gaikema@tamu.edu).
