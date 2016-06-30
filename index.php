@@ -31,6 +31,7 @@ include("templates/header.php");
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<?php
+			// Display the arrows.
 			for ($i = 0; $i < count($images); $i++)
 			{
 				if ($i==0)
@@ -42,7 +43,7 @@ include("templates/header.php");
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<?php
-			// Display all of the images from the CSV.
+			// Display all of the images from the XML file.
 			for ($i = 0; $i < count($images); $i++) 
 			{
 				if($i==0)

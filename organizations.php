@@ -25,7 +25,7 @@ include("templates/header.php");
 	<div class="panel-group">
 	
 		<?php
-		
+		// Display organizations.
 		for($i = 0; $i < count($organizations_data); $i++)
 		{
 			// Begin panel.

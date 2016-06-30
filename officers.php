@@ -24,7 +24,7 @@ include("templates/header.php");
 	<!-- // http://getbootstrap.com/components/#media -->
 	<ul class="media-list">
 		<?php
-			
+		// Display officers.	
 		foreach($officers->item as $value)
 		{	
 			echo "<li class=\"media\">";
