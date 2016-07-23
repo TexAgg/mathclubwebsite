@@ -1,0 +1,340 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: matt.gaikema@email.tamu.edu
+Received: by 10.194.13.67 with SMTP id f3csp263226wjc;
+        Fri, 27 May 2016 09:27:21 -0700 (PDT)
+X-Received: by 10.157.44.72 with SMTP id f66mr10454957otb.126.1464366441770;
+        Fri, 27 May 2016 09:27:21 -0700 (PDT)
+Return-Path: <yasskin@gmail.com>
+Received: from os-mail-6.tamu.edu (os-mail-6.tamu.edu. [165.91.22.21])
+        by mx.google.com with ESMTPS id b40si14335171ote.202.2016.05.27.09.27.21
+        for <matt.gaikema@email.tamu.edu>
+        (version=TLS1_2 cipher=AES128-SHA bits=128/128);
+        Fri, 27 May 2016 09:27:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of yasskin@gmail.com designates 209.85.214.42 as permitted sender) client-ip=209.85.214.42;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of yasskin@gmail.com designates 209.85.214.42 as permitted sender) smtp.mailfrom=yasskin@gmail.com
+X-TAMU-Auth-ID: None
+X-TAMU-SenderIP: 209.85.214.42
+Received: from mail-it0-f42.google.com (mail-it0-f42.google.com [209.85.214.42])
+	by os-mail-6.itio.tamu.edu (8.15.0.59/8.15.0.59) with ESMTPS id u4RGRKsT027058
+	(version=TLSv1.2 cipher=AES128-SHA bits=128 verify=NOT)
+	for <matt.gaikema@tamu.edu>; Fri, 27 May 2016 11:27:20 -0500
+Received: by mail-it0-f42.google.com with SMTP id g126so1747168ite.1
+        for <matt.gaikema@tamu.edu>; Fri, 27 May 2016 09:27:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to;
+        bh=0QRDwae/4r1aOF7LHr1g+cKjVIG2ah2EHNr+BQHt6JE=;
+        b=rAAi3Pww58bD39W6CTOyZofWcmGc5yafaRlsd9bHQiAKDwQGRS6n4iFx9sDUA5dLoI
+         /Tfew0a3SXnvmyUqfR0u9C09yleL5nVj4CATXsROE1+i+U7UbYh8JSVujNt5zeOHycDy
+         3HJMBdDU2+Zy6jAdRQ/WBb4gm0Kw290Y8PHVBX/v1fZhmpBXhysBLbEHi/0PBZTFGR0i
+         6hN8BVTIx7DJk4o9+IyrwGPuUAgBRH2vbqxWGl8nHYBWqXLxnAGISafVV6ZINjoaudOi
+         QVc1dUH3EhFOB2rFnjH/wdGpaMSZ1s+AmhGao2zBjnIYP/88eORJ7Jy5ohrh4c8Fa/dI
+         qsTA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:sender:in-reply-to:references:from
+         :date:message-id:subject:to;
+        bh=0QRDwae/4r1aOF7LHr1g+cKjVIG2ah2EHNr+BQHt6JE=;
+        b=f5LTRQr/TJ8r64ssGAnE3gqGETNRj1NOBGMR2avD2mR9Mt26joAIAnOhbs1X3fjGf4
+         dzaQiePY7oR3URbzx7PSs5fpEzlcGEpMsGOGft5cvxcIFZu/7+JzgFbWG+FLB9al5LoC
+         kuk8OcWxFMUPLyovrat5ZpJv+2Npw4k3XZChDhCmudLGCALPiUiKTOBupllFWuacC/GY
+         l6YJCSUpjHb0c8b0dmHzsVZ27DaVrN9xyBuXR16jqmKcNjhjFvz4Hf3dQJxaxHjEkT+K
+         KFeeQDqgCFUOpiCZSeMlObORJDVcFFLgcVz/Efa2lMW6QF++fW3VlMX6Gr2maB03VC6b
+         +BKw==
+X-Gm-Message-State: ALyK8tLePgr4neGLlgtAGEX8hy2RGLEq4VCiZVM/FCsTDahmPfhYUG1yfhmsjDoD5Lx+KCM3GAPOkTszZMWEvA==
+X-Received: by 10.36.216.196 with SMTP id b187mr9529209itg.36.1464366440484;
+ Fri, 27 May 2016 09:27:20 -0700 (PDT)
+MIME-Version: 1.0
+Sender: yasskin@gmail.com
+Received: by 10.50.202.10 with HTTP; Fri, 27 May 2016 09:27:00 -0700 (PDT)
+In-Reply-To: <CAG+Jxxh18ZM-hi5m2BS_VG0GPoSnYnnkCgHao5G6f4tTCqQPZQ@mail.gmail.com>
+References: <CAG+Jxxioky10K8PG_OoV+4s_bqeVxSb+HNGnaA_vXjGPYGjmSw@mail.gmail.com>
+ <CABwKA_0f_9VwVnmKV31=q7JdtAK3UVfEHK0XwLr-DTQd3dE9=A@mail.gmail.com>
+ <CAG+JxxiG2PE5-2DdmP8m1PkwGouuaEmuKmwL1gOTp8ViMx_Vmg@mail.gmail.com>
+ <CA+n8_wcG_vKxeja6jgb724+mwwjSzMqur0TorXK8nxOVm6hbWQ@mail.gmail.com>
+ <CA+n8_we1swvZX5Zz-cWV8681mS6av+iVVkuPhXPMJzVnF6_M2g@mail.gmail.com> <CAG+Jxxh18ZM-hi5m2BS_VG0GPoSnYnnkCgHao5G6f4tTCqQPZQ@mail.gmail.com>
+From: Philip Yasskin <yasskin@math.tamu.edu>
+Date: Fri, 27 May 2016 11:27:00 -0500
+X-Google-Sender-Auth: jT-t-Km96fRQEj9iTxCD-jIgwjo
+Message-ID: <CA+n8_weMTLdiV4SjnRcLCj2b0jo5sSq7eGFHvwkygfV-cA=pJQ@mail.gmail.com>
+Subject: Re: Math Club
+To: Matthew Gaikema <matt.gaikema@tamu.edu>
+Content-Type: multipart/alternative; boundary=94eb2c05e99a8196ee0533d56197
+X-Proofpoint-SPF-Result: pass
+X-Proofpoint-SPF-Record: v=spf1 redirect=_spf.google.com
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:5.15.96,1.0.3,0.0.0000
+ definitions=2016-05-27_09:2016-05-27,2016-05-27,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0 suspectscore=2
+ urlsuspectscore=0.9 phishscore=0 adultscore=0 bulkscore=0 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=7.0.1-1603290000
+ definitions=main-1605270185
+
+--94eb2c05e99a8196ee0533d56197
+Content-Type: text/plain; charset=UTF-8
+
+Yes
+
+The PME website at MaroonLink should be updated and should include all the
+info about both PME and also the Math Club just so it's out there on a Univ
+site.
+
+The math club should have a website also. It should be linked from
+   http://www.math.tamu.edu/undergraduate/orgs/
+which should be changed appropriately
+
+So if you write a webpage, Donna and/or I can get it hosted on the Math
+servers and linked from that page.
+
+Thanks
+Phil
+
+
+On Wed, May 25, 2016 at 8:12 PM, Matthew Gaikema <matt.gaikema@tamu.edu>
+wrote:
+
+> So Math Club needs a website, and the Pi Mu Epsilon website needs to be
+> updated, is that right?
+>
+> On Wed, May 25, 2016 at 7:59 PM, Philip Yasskin <yasskin@math.tamu.edu>
+> wrote:
+>
+>> If you look at our page, it seems to allow anyone to request membership.
+>> We don't want that. Only officers are on the mailing list. So this needs
+>> to be said somewhere, perhaps on the Roster page.
+>>
+>> Also there is a second organization (the Math Club) which is not listed
+>> at Student Activities.
+>>
+>> Anyone can join the Math Club by just attending the meetings.
+>> Membership in Pi Mu Epsilon, National Math Honor Society is by invitation
+>> only.
+>> Donna sends out invitations in the Fall and Spring based on GPAs in Math
+>> and overall.
+>> If anyone believes they are eligible, they should contact Donna Hoffman <
+>> donna@math.tamu.edu>.  (Contact Donna and find out the GPA requirements
+>> she follows so you can post them on the web.)
+>>
+>> PME only needs a Pres, V Pres and Treas. So these officers must be
+>> members of PME National.
+>> The website should also list the Webmaster, who does not need to be a
+>> member of PME National.
+>>
+>> The website should also explain
+>> The Math Club is an umbrella organization for all the undergrad
+>> organizations of the Math Dept.:
+>> AWM  Association for Women in Mathematics
+>> AMUSe Applied Math Undergrad Seminar
+>> Aggie Actuaries
+>> You should give explanations and find the websites for these and link to
+>> them.
+>>
+>> Phil
+>>
+>>
+>>
+>> On Wed, May 25, 2016 at 7:33 PM, Philip Yasskin <yasskin@math.tamu.edu>
+>> wrote:
+>>
+>>> The official one for the Univ student activities is hosted at MaroonLink
+>>> at
+>>> https://maroonlink.tamu.edu/
+>>>
+>>> Phil
+>>>
+>>> On Wed, May 25, 2016 at 6:44 PM, Matthew Gaikema <matt.gaikema@tamu.edu>
+>>> wrote:
+>>>
+>>>> I was told we don't have a website at the moment so I started on one
+>>>> yesterday.
+>>>>
+>>>> On Wed, May 25, 2016 at 5:25 PM, William Linz <willdomath@tamu.edu>
+>>>> wrote:
+>>>>
+>>>>> Hi Matt,
+>>>>>
+>>>>> I'm sorry to hear that our previous webmaster has not been in contact
+>>>>> with you. I've copied Dr. Yasskin and Christian Williams, the outgoing Vice
+>>>>> President, on this email. Dr. Yasskin should know more about the duties and
+>>>>> expectations for the webmaster, while Christian should know more about the
+>>>>> math club facebook page (and website?).
+>>>>>
+>>>>> Best,
+>>>>>
+>>>>> Will
+>>>>>
+>>>>> On Wed, May 25, 2016 at 5:07 PM, Matthew Gaikema <
+>>>>> matt.gaikema@tamu.edu> wrote:
+>>>>>
+>>>>>> Howdy,
+>>>>>>
+>>>>>> I tried to get in touch with the previous webmaster a few weeks ago
+>>>>>> but she hasn't replied. Do you know who I can get in touch with for more
+>>>>>> information on my role as webmaster? Also, a math club facebook page was
+>>>>>> mentioned, but I haven't been able to find it.
+>>>>>>
+>>>>>> Thank you,
+>>>>>>
+>>>>>> Matt Gaikema
+>>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>
+>>>
+>>> --
+>>> Philip B. Yasskin
+>>> Department of Mathematics, Texas A&M University
+>>> 3368 TAMU, College Station, TX 77843-3368
+>>>
+>>> yasskin@math.tamu.edu   http://www.math.tamu.edu/~yasskin/
+>>> Office:   BLOC 620 I   979-845-3734
+>>> Department:  979-845-3261   FAX:  979-862-4190
+>>>
+>>
+>>
+>>
+>> --
+>> Philip B. Yasskin
+>> Department of Mathematics, Texas A&M University
+>> 3368 TAMU, College Station, TX 77843-3368
+>>
+>> yasskin@math.tamu.edu   http://www.math.tamu.edu/~yasskin/
+>> Office:   BLOC 620 I   979-845-3734
+>> Department:  979-845-3261   FAX:  979-862-4190
+>>
+>
+>
+
+
+-- 
+Philip B. Yasskin
+Department of Mathematics, Texas A&M University
+3368 TAMU, College Station, TX 77843-3368
+
+yasskin@math.tamu.edu   http://www.math.tamu.edu/~yasskin/
+Office:   BLOC 620 I   979-845-3734
+Department:  979-845-3261   FAX:  979-862-4190
+
+--94eb2c05e99a8196ee0533d56197
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div>Yes<br><br>The PME website at MaroonLi=
+nk should be updated and should include all the info about both PME and als=
+o the Math Club just so it&#39;s out there on a Univ site.<br><br></div>The=
+ math club should have a website also. It should be linked from <br>=C2=A0=
+=C2=A0 <a href=3D"http://www.math.tamu.edu/undergraduate/orgs/">http://www.=
+math.tamu.edu/undergraduate/orgs/</a><br></div>which should be changed appr=
+opriately<br><br></div>So if you write a webpage, Donna and/or I can get it=
+ hosted on the Math servers and linked from that page.<br><br></div><div>Th=
+anks<br></div>Phil<br><div><div><br></div></div></div><div class=3D"gmail_e=
+xtra"><br><div class=3D"gmail_quote">On Wed, May 25, 2016 at 8:12 PM, Matth=
+ew Gaikema <span dir=3D"ltr">&lt;<a href=3D"mailto:matt.gaikema@tamu.edu" t=
+arget=3D"_blank">matt.gaikema@tamu.edu</a>&gt;</span> wrote:<br><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">So Math Club needs a website, and the =
+Pi Mu Epsilon website needs to be updated, is that right?<br></div><div cla=
+ss=3D"HOEnZb"><div class=3D"h5"><div class=3D"gmail_extra"><br><div class=
+=3D"gmail_quote">On Wed, May 25, 2016 at 7:59 PM, Philip Yasskin <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:yasskin@math.tamu.edu" target=3D"_blank">yas=
+skin@math.tamu.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">=
+<div dir=3D"ltr"><div><div><div><div><div><div><div><div><div><div><div><di=
+v><div><div>If you look at our page, it seems to allow anyone to request me=
+mbership.<br></div>We don&#39;t want that. Only officers are on the mailing=
+ list. So this needs to be said somewhere, perhaps on the Roster page.<br><=
+br></div>Also there is a second organization (the Math Club) which is not l=
+isted at Student Activities.<br><br></div>Anyone can join the Math Club by =
+just attending the meetings.<br></div>Membership in Pi Mu Epsilon, National=
+ Math Honor Society is by invitation only.<br></div>Donna sends out invitat=
+ions in the Fall and Spring based on GPAs in Math and overall.<br></div>If =
+anyone believes they are eligible, they should contact Donna Hoffman &lt;<a=
+ href=3D"mailto:donna@math.tamu.edu" target=3D"_blank">donna@math.tamu.edu<=
+/a>&gt;.=C2=A0 (Contact Donna and find out the GPA requirements she follows=
+ so you can post them on the web.)<br><br></div>PME only needs a Pres, V Pr=
+es and Treas. So these officers must be members of PME National.<br></div>T=
+he website should also list the Webmaster, who does not need to be a member=
+ of PME National.<br><br></div>The website should also explain<br>The Math =
+Club is an umbrella organization for all the undergrad organizations of the=
+ Math Dept.:<br></div>AWM=C2=A0 Association for Women in Mathematics<br></d=
+iv>AMUSe Applied Math Undergrad Seminar<br></div>Aggie Actuaries<br></div>Y=
+ou should give explanations and find the websites for these and link to the=
+m.<br><br></div>Phil<br><div><div><div><div><div><div><div><div><div><div><=
+br><div><div><br></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div><div><div><div class=3D"gmail_extra"><br><div class=3D"=
+gmail_quote">On Wed, May 25, 2016 at 7:33 PM, Philip Yasskin <span dir=3D"l=
+tr">&lt;<a href=3D"mailto:yasskin@math.tamu.edu" target=3D"_blank">yasskin@=
+math.tamu.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div =
+dir=3D"ltr"><div>The official one for the Univ student activities is hosted=
+ at MaroonLink at<br><a href=3D"https://maroonlink.tamu.edu/" target=3D"_bl=
+ank">https://maroonlink.tamu.edu/</a><br><br></div>Phil<br></div><div class=
+=3D"gmail_extra"><div><div><br><div class=3D"gmail_quote">On Wed, May 25, 2=
+016 at 6:44 PM, Matthew Gaikema <span dir=3D"ltr">&lt;<a href=3D"mailto:mat=
+t.gaikema@tamu.edu" target=3D"_blank">matt.gaikema@tamu.edu</a>&gt;</span> =
+wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bord=
+er-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">I was told we don=
+&#39;t have a website at the moment so I started on one yesterday.</div><di=
+v><div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Ma=
+y 25, 2016 at 5:25 PM, William Linz <span dir=3D"ltr">&lt;<a href=3D"mailto=
+:willdomath@tamu.edu" target=3D"_blank">willdomath@tamu.edu</a>&gt;</span> =
+wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bord=
+er-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Hi Matt,<div><br>=
+</div><div>I&#39;m sorry to hear that our previous webmaster has not been i=
+n contact with you. I&#39;ve copied Dr. Yasskin and Christian Williams, the=
+ outgoing Vice President, on this email. Dr. Yasskin should know more about=
+ the duties and expectations for the webmaster, while Christian should know=
+ more about the math club facebook page (and website?).</div><div><br></div=
+><div>Best,</div><div><br></div><div>Will</div></div><div><div><div class=
+=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, May 25, 2016 at 5:0=
+7 PM, Matthew Gaikema <span dir=3D"ltr">&lt;<a href=3D"mailto:matt.gaikema@=
+tamu.edu" target=3D"_blank">matt.gaikema@tamu.edu</a>&gt;</span> wrote:<br>=
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div dir=3D"ltr">Howdy,<div><br></div><div>I=
+ tried to get in touch with the previous webmaster a few weeks ago but she =
+hasn&#39;t replied. Do you know who I can get in touch with for more inform=
+ation on my role as webmaster? Also, a math club facebook page was mentione=
+d, but I haven&#39;t been able to find it.</div><div><br></div><div>Thank y=
+ou,</div><div><br></div><div>Matt Gaikema</div></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br></div></div><span>=
+<font color=3D"#888888">-- <br><div><div dir=3D"ltr"><div>Philip B. Yasskin=
+<br>Department of Mathematics, Texas A&amp;M University<br>3368 TAMU, Colle=
+ge Station, TX 77843-3368<br><br><a href=3D"mailto:yasskin@math.tamu.edu" t=
+arget=3D"_blank">yasskin@math.tamu.edu</a>=C2=A0=C2=A0 <a href=3D"http://ww=
+w.math.tamu.edu/~yasskin/" target=3D"_blank">http://www.math.tamu.edu/~yass=
+kin/</a><br><span>Office</span>:=C2=A0=C2=A0 BLOC 620 I =C2=A0 <a href=3D"t=
+el:979-845-3734" value=3D"+19798453734" target=3D"_blank">979-845-3734</a><=
+br>Department:=C2=A0 <a href=3D"tel:979-845-3261" value=3D"+19798453261" ta=
+rget=3D"_blank">979-845-3261</a>=C2=A0=C2=A0 FAX:=C2=A0 <a href=3D"tel:979-=
+862-4190" value=3D"+19798624190" target=3D"_blank">979-862-4190</a></div></=
+div></div>
+</font></span></div>
+</blockquote></div><br><br clear=3D"all"><br>-- <br><div><div dir=3D"ltr"><=
+div>Philip B. Yasskin<br>Department of Mathematics, Texas A&amp;M Universit=
+y<br>3368 TAMU, College Station, TX 77843-3368<br><br><a href=3D"mailto:yas=
+skin@math.tamu.edu" target=3D"_blank">yasskin@math.tamu.edu</a>=C2=A0=C2=A0=
+ <a href=3D"http://www.math.tamu.edu/~yasskin/" target=3D"_blank">http://ww=
+w.math.tamu.edu/~yasskin/</a><br><span>Office</span>:=C2=A0=C2=A0 BLOC 620 =
+I =C2=A0 <a href=3D"tel:979-845-3734" value=3D"+19798453734" target=3D"_bla=
+nk">979-845-3734</a><br>Department:=C2=A0 <a href=3D"tel:979-845-3261" valu=
+e=3D"+19798453261" target=3D"_blank">979-845-3261</a>=C2=A0=C2=A0 FAX:=C2=
+=A0 <a href=3D"tel:979-862-4190" value=3D"+19798624190" target=3D"_blank">9=
+79-862-4190</a></div></div></div>
+</div>
+</div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><div class=
+=3D"gmail_signature"><div dir=3D"ltr"><div>Philip B. Yasskin<br>Department =
+of Mathematics, Texas A&amp;M University<br>3368 TAMU, College Station, TX =
+77843-3368<br><br><a href=3D"mailto:yasskin@math.tamu.edu" target=3D"_blank=
+">yasskin@math.tamu.edu</a>=C2=A0=C2=A0 <a href=3D"http://www.math.tamu.edu=
+/~yasskin/" target=3D"_blank">http://www.math.tamu.edu/~yasskin/</a><br><sp=
+an>Office</span>:=C2=A0=C2=A0 BLOC 620 I =C2=A0 979-845-3734<br>Department:=
+=C2=A0 979-845-3261=C2=A0=C2=A0 FAX:=C2=A0 979-862-4190</div></div></div>
+</div>
+
+--94eb2c05e99a8196ee0533d56197--

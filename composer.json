@@ -30,8 +30,7 @@
         "php": ">=5.5.0"
     },
     "require-dev": {
-        "heroku/heroku-buildpack-php": "^105.0",
-        "symfony/filesystem": "^3.1"
+        "heroku/heroku-buildpack-php": "^105.0"
     },
     "autoload": {
         "files": [
