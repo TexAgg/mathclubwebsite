@@ -14,12 +14,6 @@
             "homepage": "http://mattgaikema.com/"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://gaikema@bitbucket.org/tamumathclub/website.git"
-        }
-    ],
     "support": {
         "email": "matt.gaikema@tamu.edu",
         "issues": "https://bitbucket.org/tamumathclub/website/issues?status=new&status=open",
